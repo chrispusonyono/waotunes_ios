@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4034132724A4104C00AEAE2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034132624A4104C00AEAE2A /* AppDelegate.swift */; };
+		4034132924A4104C00AEAE2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034132824A4104C00AEAE2A /* SceneDelegate.swift */; };
+		4034132B24A4104C00AEAE2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034132A24A4104C00AEAE2A /* ViewController.swift */; };
+		4034132E24A4104C00AEAE2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4034132C24A4104C00AEAE2A /* Main.storyboard */; };
+		4034133024A4105000AEAE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4034132F24A4105000AEAE2A /* Assets.xcassets */; };
+		4034133324A4105000AEAE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4034133124A4105000AEAE2A /* LaunchScreen.storyboard */; };
+		4034133E24A4105000AEAE2A /* Wao_TunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034133D24A4105000AEAE2A /* Wao_TunesTests.swift */; };
+		4034134924A4105000AEAE2A /* Wao_TunesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034134824A4105000AEAE2A /* Wao_TunesUITests.swift */; };
+		4034135A24A4122600AEAE2A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034135924A4122600AEAE2A /* Login.swift */; };
+		B2A2BC030CB316E8A3B7FFC4 /* Pods_Wao_Tunes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663C0E438A420EE85332298A /* Pods_Wao_Tunes.framework */; };
+		E65559D024DDFC7500A0EB79 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65559CF24DDFC7500A0EB79 /* Session.swift */; };
+		E65559D224DE0FE700A0EB79 /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65559D124DE0FE700A0EB79 /* Homepage.swift */; };
+		E6A7065324DB523700BABA5A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A7065224DB523700BABA5A /* Constant.swift */; };
+		E6A7065824DB53EE00BABA5A /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A7065724DB53EE00BABA5A /* Content.swift */; };
+		E6A7065A24DB54C200BABA5A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A7065924DB54C200BABA5A /* Category.swift */; };
+		E6AD7B9224E47B4E00808C19 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AD7B9124E47B4E00808C19 /* Home.swift */; };
+		E6AD7B9424E48A5C00808C19 /* Curve.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AD7B9324E48A5C00808C19 /* Curve.swift */; };
+		E6CAE39824E54BC600DF5A51 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CAE39724E54BC500DF5A51 /* Signup.swift */; };
+		E6CAE39B24E590A200DF5A51 /* UnitCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CAE39A24E590A200DF5A51 /* UnitCategory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4034133A24A4105000AEAE2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4034131B24A4104C00AEAE2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4034132224A4104C00AEAE2A;
+			remoteInfo = "Wao Tunes";
+		};
+		4034134524A4105000AEAE2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4034131B24A4104C00AEAE2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4034132224A4104C00AEAE2A;
+			remoteInfo = "Wao Tunes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A7757527201BEA8955B47D /* Pods-Wao Tunes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wao Tunes.debug.xcconfig"; path = "Target Support Files/Pods-Wao Tunes/Pods-Wao Tunes.debug.xcconfig"; sourceTree = "<group>"; };
+		4034132324A4104C00AEAE2A /* Wao Tunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wao Tunes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4034132624A4104C00AEAE2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4034132824A4104C00AEAE2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4034132A24A4104C00AEAE2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4034132D24A4104C00AEAE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4034132F24A4105000AEAE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4034133224A4105000AEAE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4034133424A4105000AEAE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4034133924A4105000AEAE2A /* Wao TunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wao TunesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4034133D24A4105000AEAE2A /* Wao_TunesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wao_TunesTests.swift; sourceTree = "<group>"; };
+		4034133F24A4105000AEAE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4034134424A4105000AEAE2A /* Wao TunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wao TunesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4034134824A4105000AEAE2A /* Wao_TunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wao_TunesUITests.swift; sourceTree = "<group>"; };
+		4034134A24A4105000AEAE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4034135924A4122600AEAE2A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		663C0E438A420EE85332298A /* Pods_Wao_Tunes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wao_Tunes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9993090B3CBCB041ED2E97 /* Pods-Wao Tunes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wao Tunes.release.xcconfig"; path = "Target Support Files/Pods-Wao Tunes/Pods-Wao Tunes.release.xcconfig"; sourceTree = "<group>"; };
+		E65559CF24DDFC7500A0EB79 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		E65559D124DE0FE700A0EB79 /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		E6A7065224DB523700BABA5A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E6A7065724DB53EE00BABA5A /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		E6A7065924DB54C200BABA5A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E6AD7B9124E47B4E00808C19 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E6AD7B9324E48A5C00808C19 /* Curve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curve.swift; sourceTree = "<group>"; };
+		E6CAE39724E54BC500DF5A51 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		E6CAE39A24E590A200DF5A51 /* UnitCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCategory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4034132024A4104C00AEAE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A2BC030CB316E8A3B7FFC4 /* Pods_Wao_Tunes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4034133624A4105000AEAE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4034134124A4105000AEAE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34E50F90F9497B4B65F57827 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				663C0E438A420EE85332298A /* Pods_Wao_Tunes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F00BB7A52535C0A611AFD2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01A7757527201BEA8955B47D /* Pods-Wao Tunes.debug.xcconfig */,
+				6B9993090B3CBCB041ED2E97 /* Pods-Wao Tunes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4034131A24A4104C00AEAE2A = {
+			isa = PBXGroup;
+			children = (
+				4034132524A4104C00AEAE2A /* Wao Tunes */,
+				4034133C24A4105000AEAE2A /* Wao TunesTests */,
+				4034134724A4105000AEAE2A /* Wao TunesUITests */,
+				4034132424A4104C00AEAE2A /* Products */,
+				3F00BB7A52535C0A611AFD2E /* Pods */,
+				34E50F90F9497B4B65F57827 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4034132424A4104C00AEAE2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4034132324A4104C00AEAE2A /* Wao Tunes.app */,
+				4034133924A4105000AEAE2A /* Wao TunesTests.xctest */,
+				4034134424A4105000AEAE2A /* Wao TunesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4034132524A4104C00AEAE2A /* Wao Tunes */ = {
+			isa = PBXGroup;
+			children = (
+				E6CAE39924E5901300DF5A51 /* Cells */,
+				E6A7065624DB53C000BABA5A /* Models */,
+				E6A7065124DB51A900BABA5A /* Ini */,
+				4034132624A4104C00AEAE2A /* AppDelegate.swift */,
+				4034132824A4104C00AEAE2A /* SceneDelegate.swift */,
+				4034132A24A4104C00AEAE2A /* ViewController.swift */,
+				4034132C24A4104C00AEAE2A /* Main.storyboard */,
+				4034132F24A4105000AEAE2A /* Assets.xcassets */,
+				4034133124A4105000AEAE2A /* LaunchScreen.storyboard */,
+				4034133424A4105000AEAE2A /* Info.plist */,
+				4034135924A4122600AEAE2A /* Login.swift */,
+				E65559D124DE0FE700A0EB79 /* Homepage.swift */,
+				E6AD7B9124E47B4E00808C19 /* Home.swift */,
+				E6CAE39724E54BC500DF5A51 /* Signup.swift */,
+			);
+			path = "Wao Tunes";
+			sourceTree = "<group>";
+		};
+		4034133C24A4105000AEAE2A /* Wao TunesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4034133D24A4105000AEAE2A /* Wao_TunesTests.swift */,
+				4034133F24A4105000AEAE2A /* Info.plist */,
+			);
+			path = "Wao TunesTests";
+			sourceTree = "<group>";
+		};
+		4034134724A4105000AEAE2A /* Wao TunesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4034134824A4105000AEAE2A /* Wao_TunesUITests.swift */,
+				4034134A24A4105000AEAE2A /* Info.plist */,
+			);
+			path = "Wao TunesUITests";
+			sourceTree = "<group>";
+		};
+		E6A7065124DB51A900BABA5A /* Ini */ = {
+			isa = PBXGroup;
+			children = (
+				E6A7065224DB523700BABA5A /* Constant.swift */,
+			);
+			path = Ini;
+			sourceTree = "<group>";
+		};
+		E6A7065624DB53C000BABA5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E6A7065724DB53EE00BABA5A /* Content.swift */,
+				E6A7065924DB54C200BABA5A /* Category.swift */,
+				E65559CF24DDFC7500A0EB79 /* Session.swift */,
+				E6AD7B9324E48A5C00808C19 /* Curve.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E6CAE39924E5901300DF5A51 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E6CAE39A24E590A200DF5A51 /* UnitCategory.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4034132224A4104C00AEAE2A /* Wao Tunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4034134D24A4105100AEAE2A /* Build configuration list for PBXNativeTarget "Wao Tunes" */;
+			buildPhases = (
+				544F654A72D27E13948956E2 /* [CP] Check Pods Manifest.lock */,
+				4034131F24A4104C00AEAE2A /* Sources */,
+				4034132024A4104C00AEAE2A /* Frameworks */,
+				4034132124A4104C00AEAE2A /* Resources */,
+				BD518FE434D6BCA66427F6FA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wao Tunes";
+			productName = "Wao Tunes";
+			productReference = 4034132324A4104C00AEAE2A /* Wao Tunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4034133824A4105000AEAE2A /* Wao TunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4034135024A4105100AEAE2A /* Build configuration list for PBXNativeTarget "Wao TunesTests" */;
+			buildPhases = (
+				4034133524A4105000AEAE2A /* Sources */,
+				4034133624A4105000AEAE2A /* Frameworks */,
+				4034133724A4105000AEAE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4034133B24A4105000AEAE2A /* PBXTargetDependency */,
+			);
+			name = "Wao TunesTests";
+			productName = "Wao TunesTests";
+			productReference = 4034133924A4105000AEAE2A /* Wao TunesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4034134324A4105000AEAE2A /* Wao TunesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4034135324A4105100AEAE2A /* Build configuration list for PBXNativeTarget "Wao TunesUITests" */;
+			buildPhases = (
+				4034134024A4105000AEAE2A /* Sources */,
+				4034134124A4105000AEAE2A /* Frameworks */,
+				4034134224A4105000AEAE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4034134624A4105000AEAE2A /* PBXTargetDependency */,
+			);
+			name = "Wao TunesUITests";
+			productName = "Wao TunesUITests";
+			productReference = 4034134424A4105000AEAE2A /* Wao TunesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4034131B24A4104C00AEAE2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Nick Kilesi";
+				TargetAttributes = {
+					4034132224A4104C00AEAE2A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					4034133824A4105000AEAE2A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 4034132224A4104C00AEAE2A;
+					};
+					4034134324A4105000AEAE2A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 4034132224A4104C00AEAE2A;
+					};
+				};
+			};
+			buildConfigurationList = 4034131E24A4104C00AEAE2A /* Build configuration list for PBXProject "Wao Tunes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4034131A24A4104C00AEAE2A;
+			productRefGroup = 4034132424A4104C00AEAE2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4034132224A4104C00AEAE2A /* Wao Tunes */,
+				4034133824A4105000AEAE2A /* Wao TunesTests */,
+				4034134324A4105000AEAE2A /* Wao TunesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4034132124A4104C00AEAE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4034133324A4105000AEAE2A /* LaunchScreen.storyboard in Resources */,
+				4034133024A4105000AEAE2A /* Assets.xcassets in Resources */,
+				4034132E24A4104C00AEAE2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4034133724A4105000AEAE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4034134224A4105000AEAE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		544F654A72D27E13948956E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wao Tunes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD518FE434D6BCA66427F6FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wao Tunes/Pods-Wao Tunes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wao Tunes/Pods-Wao Tunes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wao Tunes/Pods-Wao Tunes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4034131F24A4104C00AEAE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4034132B24A4104C00AEAE2A /* ViewController.swift in Sources */,
+				4034132724A4104C00AEAE2A /* AppDelegate.swift in Sources */,
+				E6AD7B9224E47B4E00808C19 /* Home.swift in Sources */,
+				E6A7065324DB523700BABA5A /* Constant.swift in Sources */,
+				E6AD7B9424E48A5C00808C19 /* Curve.swift in Sources */,
+				E6CAE39824E54BC600DF5A51 /* Signup.swift in Sources */,
+				E65559D224DE0FE700A0EB79 /* Homepage.swift in Sources */,
+				4034132924A4104C00AEAE2A /* SceneDelegate.swift in Sources */,
+				4034135A24A4122600AEAE2A /* Login.swift in Sources */,
+				E6CAE39B24E590A200DF5A51 /* UnitCategory.swift in Sources */,
+				E6A7065824DB53EE00BABA5A /* Content.swift in Sources */,
+				E6A7065A24DB54C200BABA5A /* Category.swift in Sources */,
+				E65559D024DDFC7500A0EB79 /* Session.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4034133524A4105000AEAE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4034133E24A4105000AEAE2A /* Wao_TunesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4034134024A4105000AEAE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4034134924A4105000AEAE2A /* Wao_TunesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4034133B24A4105000AEAE2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4034132224A4104C00AEAE2A /* Wao Tunes */;
+			targetProxy = 4034133A24A4105000AEAE2A /* PBXContainerItemProxy */;
+		};
+		4034134624A4105000AEAE2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4034132224A4104C00AEAE2A /* Wao Tunes */;
+			targetProxy = 4034134524A4105000AEAE2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4034132C24A4104C00AEAE2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4034132D24A4104C00AEAE2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4034133124A4105000AEAE2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4034133224A4105000AEAE2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4034134B24A4105100AEAE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4034134C24A4105100AEAE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4034134E24A4105100AEAE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A7757527201BEA8955B47D /* Pods-Wao Tunes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ELDNBT2789;
+				INFOPLIST_FILE = "Wao Tunes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waotunes.Wao-Tunes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4034134F24A4105100AEAE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9993090B3CBCB041ED2E97 /* Pods-Wao Tunes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ELDNBT2789;
+				INFOPLIST_FILE = "Wao Tunes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waotunes.Wao-Tunes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4034135124A4105100AEAE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ELDNBT2789;
+				INFOPLIST_FILE = "Wao TunesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waotunes.Wao-TunesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wao Tunes.app/Wao Tunes";
+			};
+			name = Debug;
+		};
+		4034135224A4105100AEAE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ELDNBT2789;
+				INFOPLIST_FILE = "Wao TunesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waotunes.Wao-TunesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wao Tunes.app/Wao Tunes";
+			};
+			name = Release;
+		};
+		4034135424A4105100AEAE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ELDNBT2789;
+				INFOPLIST_FILE = "Wao TunesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waotunes.Wao-TunesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wao Tunes";
+			};
+			name = Debug;
+		};
+		4034135524A4105100AEAE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ELDNBT2789;
+				INFOPLIST_FILE = "Wao TunesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waotunes.Wao-TunesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wao Tunes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4034131E24A4104C00AEAE2A /* Build configuration list for PBXProject "Wao Tunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4034134B24A4105100AEAE2A /* Debug */,
+				4034134C24A4105100AEAE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4034134D24A4105100AEAE2A /* Build configuration list for PBXNativeTarget "Wao Tunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4034134E24A4105100AEAE2A /* Debug */,
+				4034134F24A4105100AEAE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4034135024A4105100AEAE2A /* Build configuration list for PBXNativeTarget "Wao TunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4034135124A4105100AEAE2A /* Debug */,
+				4034135224A4105100AEAE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4034135324A4105100AEAE2A /* Build configuration list for PBXNativeTarget "Wao TunesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4034135424A4105100AEAE2A /* Debug */,
+				4034135524A4105100AEAE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4034131B24A4104C00AEAE2A /* Project object */;
+}

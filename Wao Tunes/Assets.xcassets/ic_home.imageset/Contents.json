@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_home_black_24dp.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (4.9.1)
+  - ImageLoader (0.14.0)
+  - ImagePicker (3.2.0)
+  - NavigationDrawer (1.0.3)
+  - SwiftHEXColors (1.4.0)
+  - SwiftyJSON (4.3.0)
+  - Toast-Swift (4.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - ImageLoader
+  - ImagePicker
+  - NavigationDrawer
+  - SwiftHEXColors
+  - SwiftyJSON (~> 4.0)
+  - Toast-Swift (~> 4.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ImageLoader
+    - ImagePicker
+    - NavigationDrawer
+    - SwiftHEXColors
+    - SwiftyJSON
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ImageLoader: 56f57e35d6ed26a74183dc2e472133b4b22eb7b9
+  ImagePicker: 1d950bbb2422548ed58791b4ec7f42fe42920511
+  NavigationDrawer: ad87622628ed59589f8fe8e2338d27109ca51a64
+  SwiftHEXColors: c5baa53cf2412ce6391633ce74999437cc025efc
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+
+PODFILE CHECKSUM: 1863c2ca0b94a1f3847fae6ed17b522c9a15dfaa
+
+COCOAPODS: 1.9.3
