@@ -194,7 +194,7 @@
         <!--About-->
         <scene sceneID="kjx-b9-eSk">
             <objects>
-                <viewController id="66q-Hh-yqy" customClass="About" customModule="Wao_Tunes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="About" id="66q-Hh-yqy" customClass="About" customModule="Wao_Tunes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ofc-fF-11B">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1258,7 +1258,7 @@
         <!--Home-->
         <scene sceneID="7JW-qO-pRl">
             <objects>
-                <viewController id="DnP-EM-a8D" customClass="Home" customModule="Wao_Tunes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" id="DnP-EM-a8D" customClass="Home" customModule="Wao_Tunes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4XO-8K-QYf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1496,6 +1496,7 @@
                     <tabBarItem key="tabBarItem" title="Home" image="baseline_home_black_48pt" id="wmH-cM-RmM"/>
                     <connections>
                         <outlet property="categoryCollection" destination="Uoo-Hb-FnR" id="hXS-rX-rut"/>
+                        <outlet property="menuLauncher" destination="ouA-Ev-XZx" id="t7Y-i9-fj4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vUp-qu-m3X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1622,7 +1623,7 @@
         <!--Add Content-->
         <scene sceneID="i2m-cw-mC3">
             <objects>
-                <viewController id="iUK-9o-sU5" customClass="AddContent" customModule="Wao_Tunes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddContent" id="iUK-9o-sU5" customClass="AddContent" customModule="Wao_Tunes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D3v-ly-MYY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1750,7 +1751,7 @@
         <!--Add Live-->
         <scene sceneID="59W-Q8-sTO">
             <objects>
-                <viewController id="n6k-bp-dLH" customClass="AddLive" customModule="Wao_Tunes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddLive" id="n6k-bp-dLH" customClass="AddLive" customModule="Wao_Tunes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wFu-a8-IHf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2200,7 +2201,7 @@
         <!--Menu Launcher-->
         <scene sceneID="Vh3-zq-66C">
             <objects>
-                <viewController id="oiy-0Z-wp9" customClass="MenuLauncher" customModule="Wao_Tunes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuLauncher" id="oiy-0Z-wp9" customClass="MenuLauncher" customModule="Wao_Tunes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ELN-lH-61X">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2260,6 +2261,9 @@
                                                         <state key="normal" title="Login">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="goToLogin:" destination="oiy-0Z-wp9" eventType="touchUpInside" id="nSl-Vm-Jef"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2576,6 +2580,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="56d-Fx-Ggt"/>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="W7h-Sb-Lg8" id="of8-BE-yjm"/>
+                        <outlet property="goToAbout" destination="REv-un-eCg" id="9Sa-8e-Nbc"/>
+                        <outlet property="goToFeedback" destination="lko-aB-ZDp" id="K1v-2S-ruY"/>
+                        <outlet property="goToHome" destination="X7f-sS-xWZ" id="5Ut-mX-AYP"/>
+                        <outlet property="goToMyLibrary" destination="cwZ-Wi-Bl0" id="MRf-ir-K9L"/>
+                        <outlet property="goToProfile" destination="BPV-fr-qiN" id="Dtx-p2-ri9"/>
+                        <outlet property="goToWallet" destination="MUF-LK-8S3" id="jgf-cX-Xc7"/>
+                        <outlet property="loginBtn" destination="bLe-1O-ZSF" id="cwS-RD-xRb"/>
+                        <outlet property="username" destination="2Lo-fY-uVN" id="65h-C5-Xal"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bJH-DE-XaU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

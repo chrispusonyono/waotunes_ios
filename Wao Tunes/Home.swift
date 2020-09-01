@@ -9,6 +9,7 @@
 import UIKit
 
 class Home: UIViewController {
+    @IBOutlet weak var menuLauncher: UIImageView!
     @IBOutlet weak var categoryCollection: UICollectionView!
     
     override func viewDidLoad() {
@@ -18,9 +19,23 @@ class Home: UIViewController {
     private func initialize(){
         categoryCollection.reloadData()
         Constant.FUNCTIONS.fetchCategories()
+        let gesture = UITapGestureRecognizer(target: self, action:  #selector(self.checkAction))
+        menuLauncher.addGestureRecognizer(gesture)
         homeInstance=self
     }
     
+  
+    
+    
+    
+
+@objc func checkAction(sender : UITapGestureRecognizer) {
+    let mainmenu = storyboard?.instantiateViewController(withIdentifier: "MenuLauncher") as!MenuLauncher
+    mainmenu.modalPresentationStyle = .fullScreen
+    self.dismiss(animated:true, completion:nil)
+    self.present(mainmenu, animated:true, completion:nil)
+
+}
 
     /*
     // MARK: - Navigation

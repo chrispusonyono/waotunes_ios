@@ -48,10 +48,10 @@ class Constant {
     struct FUNCTIONS {
        
         static func fetchCategories() -> Void {
-            let categoriesJSON = JSON(Constant.DATA.storage.string(forKey: "categories") ?? "[]")
-            for (index, subJson):(String, JSON) in categoriesJSON {
-                           subJson[""]
-            }
+//            let categoriesJSON = JSON(Constant.DATA.storage.string(forKey: "categories") ?? "[]")
+//            for (index, subJson):(String, JSON) in categoriesJSON {
+//                           subJson[""]
+//            }
             
             
             
@@ -65,7 +65,13 @@ class Constant {
                     
                       let dataIn = response.result.value as! NSDictionary
                         if((dataIn.value(forKey: "status") as! Int) == 1){
-                            
+                            let categories = dataIn.value(forKey: "products") as! NSArray
+                            Constant.DATA.categories = [Category]()
+                            for category in categories {
+                                let data = category as! NSDictionary
+                                Constant.DATA.categories += [Category( id: data.value(forKey: "id") as! String,description: data.value(forKey: "name") as! String)]
+                            }
+                
                             homeInstance?.categoryCollection.reloadData()
                             
                             
