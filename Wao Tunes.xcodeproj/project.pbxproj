@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C53DC5024F69E2A0084C614 /* UnitHomeContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C53DC4F24F69E2A0084C614 /* UnitHomeContent.swift */; };
+		0C5554D524FD7CF500778BE4 /* AddContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5554D424FD7CF500778BE4 /* AddContent.swift */; };
+		0C5554D724FD7D8800778BE4 /* AddLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5554D624FD7D8800778BE4 /* AddLive.swift */; };
+		0C5554D924FD7DC100778BE4 /* PlayVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5554D824FD7DC100778BE4 /* PlayVideo.swift */; };
+		0C68D3B624FDB41D008578CA /* MenuLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C68D3B524FDB41D008578CA /* MenuLauncher.swift */; };
+		0CC0FD0924F136AE00888A4B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC0FD0824F136AE00888A4B /* CardView.swift */; };
+		0CE2AE0124EFBFE800A8DDC6 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE2AE0024EFBFE800A8DDC6 /* About.swift */; };
+		0CE2AE0324EFC05B00A8DDC6 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE2AE0224EFC05B00A8DDC6 /* Profile.swift */; };
+		0CE2AE0524EFC09E00A8DDC6 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE2AE0424EFC09E00A8DDC6 /* Wallet.swift */; };
+		0CE2AE0724EFC0D000A8DDC6 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE2AE0624EFC0D000A8DDC6 /* Feedback.swift */; };
 		4034132724A4104C00AEAE2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034132624A4104C00AEAE2A /* AppDelegate.swift */; };
 		4034132924A4104C00AEAE2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034132824A4104C00AEAE2A /* SceneDelegate.swift */; };
 		4034132B24A4104C00AEAE2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034132A24A4104C00AEAE2A /* ViewController.swift */; };
@@ -47,6 +57,16 @@
 
 /* Begin PBXFileReference section */
 		01A7757527201BEA8955B47D /* Pods-Wao Tunes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wao Tunes.debug.xcconfig"; path = "Target Support Files/Pods-Wao Tunes/Pods-Wao Tunes.debug.xcconfig"; sourceTree = "<group>"; };
+		0C53DC4F24F69E2A0084C614 /* UnitHomeContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitHomeContent.swift; sourceTree = "<group>"; };
+		0C5554D424FD7CF500778BE4 /* AddContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContent.swift; sourceTree = "<group>"; };
+		0C5554D624FD7D8800778BE4 /* AddLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLive.swift; sourceTree = "<group>"; };
+		0C5554D824FD7DC100778BE4 /* PlayVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideo.swift; sourceTree = "<group>"; };
+		0C68D3B524FDB41D008578CA /* MenuLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLauncher.swift; sourceTree = "<group>"; };
+		0CC0FD0824F136AE00888A4B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0CE2AE0024EFBFE800A8DDC6 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		0CE2AE0224EFC05B00A8DDC6 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		0CE2AE0424EFC09E00A8DDC6 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		0CE2AE0624EFC0D000A8DDC6 /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
 		4034132324A4104C00AEAE2A /* Wao Tunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wao Tunes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4034132624A4104C00AEAE2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4034132824A4104C00AEAE2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +121,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CC0FD0724F133F500888A4B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0CC0FD0824F136AE00888A4B /* CardView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		34E50F90F9497B4B65F57827 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +171,7 @@
 		4034132524A4104C00AEAE2A /* Wao Tunes */ = {
 			isa = PBXGroup;
 			children = (
+				0CC0FD0724F133F500888A4B /* Helper */,
 				E6CAE39924E5901300DF5A51 /* Cells */,
 				E6A7065624DB53C000BABA5A /* Models */,
 				E6A7065124DB51A900BABA5A /* Ini */,
@@ -157,6 +186,14 @@
 				E65559D124DE0FE700A0EB79 /* Homepage.swift */,
 				E6AD7B9124E47B4E00808C19 /* Home.swift */,
 				E6CAE39724E54BC500DF5A51 /* Signup.swift */,
+				0CE2AE0024EFBFE800A8DDC6 /* About.swift */,
+				0CE2AE0224EFC05B00A8DDC6 /* Profile.swift */,
+				0CE2AE0424EFC09E00A8DDC6 /* Wallet.swift */,
+				0CE2AE0624EFC0D000A8DDC6 /* Feedback.swift */,
+				0C5554D424FD7CF500778BE4 /* AddContent.swift */,
+				0C5554D624FD7D8800778BE4 /* AddLive.swift */,
+				0C5554D824FD7DC100778BE4 /* PlayVideo.swift */,
+				0C68D3B524FDB41D008578CA /* MenuLauncher.swift */,
 			);
 			path = "Wao Tunes";
 			sourceTree = "<group>";
@@ -202,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				E6CAE39A24E590A200DF5A51 /* UnitCategory.swift */,
+				0C53DC4F24F69E2A0084C614 /* UnitHomeContent.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -381,16 +419,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE2AE0524EFC09E00A8DDC6 /* Wallet.swift in Sources */,
 				4034132B24A4104C00AEAE2A /* ViewController.swift in Sources */,
+				0CE2AE0324EFC05B00A8DDC6 /* Profile.swift in Sources */,
+				0C5554D524FD7CF500778BE4 /* AddContent.swift in Sources */,
 				4034132724A4104C00AEAE2A /* AppDelegate.swift in Sources */,
 				E6AD7B9224E47B4E00808C19 /* Home.swift in Sources */,
+				0CE2AE0724EFC0D000A8DDC6 /* Feedback.swift in Sources */,
+				0C5554D924FD7DC100778BE4 /* PlayVideo.swift in Sources */,
+				0C5554D724FD7D8800778BE4 /* AddLive.swift in Sources */,
 				E6A7065324DB523700BABA5A /* Constant.swift in Sources */,
 				E6AD7B9424E48A5C00808C19 /* Curve.swift in Sources */,
 				E6CAE39824E54BC600DF5A51 /* Signup.swift in Sources */,
 				E65559D224DE0FE700A0EB79 /* Homepage.swift in Sources */,
+				0CC0FD0924F136AE00888A4B /* CardView.swift in Sources */,
+				0C68D3B624FDB41D008578CA /* MenuLauncher.swift in Sources */,
 				4034132924A4104C00AEAE2A /* SceneDelegate.swift in Sources */,
 				4034135A24A4122600AEAE2A /* Login.swift in Sources */,
+				0CE2AE0124EFBFE800A8DDC6 /* About.swift in Sources */,
 				E6CAE39B24E590A200DF5A51 /* UnitCategory.swift in Sources */,
+				0C53DC5024F69E2A0084C614 /* UnitHomeContent.swift in Sources */,
 				E6A7065824DB53EE00BABA5A /* Content.swift in Sources */,
 				E6A7065A24DB54C200BABA5A /* Category.swift in Sources */,
 				E65559D024DDFC7500A0EB79 /* Session.swift in Sources */,

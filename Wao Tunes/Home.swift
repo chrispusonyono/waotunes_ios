@@ -13,12 +13,14 @@ class Home: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        categoryCollection.reloadData()
         initialize()
     }
     private func initialize(){
-        
+        categoryCollection.reloadData()
+        Constant.FUNCTIONS.fetchCategories()
+        homeInstance=self
     }
+    
 
     /*
     // MARK: - Navigation
@@ -48,3 +50,4 @@ extension Home:UICollectionViewDelegate,UICollectionViewDataSource{
         return cell!
     }
 }
+var homeInstance: Home?

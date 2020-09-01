@@ -48,6 +48,13 @@ class Constant {
     struct FUNCTIONS {
        
         static func fetchCategories() -> Void {
+            let categoriesJSON = JSON(Constant.DATA.storage.string(forKey: "categories") ?? "[]")
+            for (index, subJson):(String, JSON) in categoriesJSON {
+                           subJson[""]
+            }
+            
+            
+            
             let parameters: Parameters=[
                 "function":"categories",
             ]
@@ -59,7 +66,7 @@ class Constant {
                       let dataIn = response.result.value as! NSDictionary
                         if((dataIn.value(forKey: "status") as! Int) == 1){
                             
-                            
+                            homeInstance?.categoryCollection.reloadData()
                             
                             
                         }else{
@@ -71,12 +78,15 @@ class Constant {
                 }
             }
         }
-        static func setCategories(){
-            let categoriesJSON = JSON(Constant.DATA.storage.string(forKey: "categories") ?? "[]")
-            
-            for (index, subJson):(String, JSON) in categoriesJSON {
-                subJson[""]
-            }
+       
+        
+        
+        static func toMoney(amount:String) -> String {
+            let formatter = NumberFormatter()
+            formatter.locale = Locale(identifier: "en_KE")
+            formatter.numberStyle = .currency
+            let formattedTipAmount = formatter.string(from: NumberFormatter().number(from: amount)!)!
+            return formattedTipAmount
         }
      
     

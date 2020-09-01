@@ -10,7 +10,6 @@ import UIKit
 import Alamofire
 import Toast_Swift
 class Login: UIViewController {
-let session = UserDefaults.standard
     override func viewDidLoad() {
         super.viewDidLoad()
         initializeView()

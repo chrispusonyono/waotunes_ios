@@ -7,13 +7,14 @@
 //
 
 import Foundation
+import SwiftyJSON
 class Session {
     
     var loggedIn :Bool
-    var data: String
+    var data: JSON
     init() {
         loggedIn=Constant.DATA.storage.bool(forKey: "loggedIn")
-        data=Constant.DATA.storage.string(forKey: "data") ?? ""
+        data=JSON((Constant.DATA.storage.string(forKey: "data") ?? "{}").data(using: .utf8)!)
         
     }
     func start(data:NSDictionary) -> Void {
