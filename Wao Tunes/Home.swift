@@ -19,8 +19,9 @@ class Home: UIViewController {
     private func initialize(){
         categoryCollection.reloadData()
         Constant.FUNCTIONS.fetchCategories()
-        let gesture = UITapGestureRecognizer(target: self, action:  #selector(self.checkAction))
-        menuLauncher.addGestureRecognizer(gesture)
+        let click = UITapGestureRecognizer(target: self, action:  #selector(self.checkAction))
+        click.numberOfTapsRequired = 1
+        menuLauncher.addGestureRecognizer(click)
         homeInstance=self
     }
     
@@ -29,7 +30,7 @@ class Home: UIViewController {
     
     
 
-@objc func checkAction(sender : UITapGestureRecognizer) {
+@objc func checkAction() {
     let mainmenu = storyboard?.instantiateViewController(withIdentifier: "MenuLauncher") as!MenuLauncher
     mainmenu.modalPresentationStyle = .fullScreen
     self.dismiss(animated:true, completion:nil)
